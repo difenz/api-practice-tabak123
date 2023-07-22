@@ -1,0 +1,52 @@
+body {
+    background-color: #141414;
+    color: #fff;
+    font-family: Sans-serif, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.sellers {
+    font-size: 64px;
+    width: 50%;
+    font-weight: 500;
+    padding: 0 40px;
+    transition: opacity 0.3s ease;
+    cursor: pointer;
+}
+
+.list__item {
+    list-style: none;
+    font-size: 46px;
+    padding: 0 5px;
+    transition: opacity 0.3s ease;
+    cursor: pointer;
+}
+
+.list__store {
+    list-style: none;
+    font-size: 24px;
+    opacity: 50%;
+    font-weight: 300;
+    transition: opacity 0.3s ease;
+    cursor: pointer;
+    text-transform: capitalize;
+    padding: 100px 0 0 5px;
+}
+
+
+@media only screen and (max-width: 800px) {
+    .list__item {
+        font-size: 20px;
+        padding: 10px 0;
+    }
+
+    .list__store {
+        font-size: 14px;
+        padding: 20px 0 0 0;
+    }
+
+    .sellers {
+        font-size: 46px;
+    }
+}
